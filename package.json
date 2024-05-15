@@ -1,0 +1,13 @@
+{
+  "name": "backend(part-3)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "awais" : "node ./script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Awais",
+  "license": "ISC"
+}

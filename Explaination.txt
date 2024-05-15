@@ -1,0 +1,13 @@
+is part mai ham npm ky bary mai jany gy 
+* npm ka phly matlab tha ky node pakage manager. lakin ab npm mai sirf node ky pakages nai milt balky har tarha ky pakages milty hai jaisy react ky , even java ky bhi. is liye ham ab isy node pakage manager nahi khty.
+* npm sy ham koi bhi pakage download is tarha kar sakty hai 
+       npm i/install pakage-name 
+ is tarha ham kisi bhi installed pakage ko uninstall bhi kar sakty hai 
+       npm uninstall pakage-name 
+* node modules or node pakage mai aik major difference ye hai : jab ham node ko intall karty hai to jo chizy iski core hoti hai means is ky sath install hoti hai wo modules khlaty hai or jo ham bad mai npm sy install karty hai wo pakages khlaty hai.
+* dependencies wo pakages hoty hai jinki hamy website deploy hony ky bad bhi zarorat hoti hai or wo pakages jo sirf development ky doran kam aty hai wo devdependencies khlaty hai. misal ky tor par ham aik pakage nodemon use karty hai deploy hony ky bad iski koi zarorat nahi hoti is liye ye devdependencies hai.
+* node mai 2 tarha ki scripts hoti hai :
+pheli default scripts hoti hai is mai 2 scripts shamil hai i.e start and test. jab ham node ko install karty hai to ye commands khud hi computer ky commands table mai store ho jate hai.isko execute karny ky liye ham is tarha ki command daini hoti hai 
+        npm script-name
+dsri hai custome scripts. ye hamy khud computer ky commands table mai create karni parti hai or isko execute karny ky liye ham is tarha ki command daini hoti hai 
+        npm run script-name
